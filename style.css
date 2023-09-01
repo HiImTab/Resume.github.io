@@ -1,4 +1,4 @@
-body {
+body{
     
 }
 
@@ -32,14 +32,39 @@ header{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 50%;
+    width: 70%;
     padding-right: 1em;
+/*     line-height: 0.5em; */
 }
 
 .body-right{
     display: flex;
     justify-content: space-between;
     flex-direction: column;
-    width: 50%;
+    width: 30%;
     padding-left: 1em;
+/*     line-height: 0.5em; */
+}
+
+.body-titles{
+    color: #4472C4;
+    font-weight: bold;
+}
+
+.body-subtitle{
+    font-weight: bold;
+}
+
+.body-info{
+    font-weight: 500;
+}
+
+.body-list{
+    text-decoration: underline;
+    padding: 0.5em;
+}
+
+.body-bullet{
+    margin-top: 0.2em;
+    margin-bottom: 0.2em;
 }
