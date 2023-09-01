@@ -1,0 +1,45 @@
+body {
+    
+}
+
+.container-header{
+    margin: auto 12em;
+}
+
+.container-body{
+    margin: auto 8em;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+    flex-direction: row;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.contact-info{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
+.body-left{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 1em;
+}
+
+.body-right{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 1em;
+}
