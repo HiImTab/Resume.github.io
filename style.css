@@ -4,7 +4,7 @@ body{
 
 ul{
     margin: 0;
-    padding-left: 2em;
+    padding-left: 1em;
     padding-bottom: 0.2em;
 }
 
@@ -95,6 +95,10 @@ header{
     color:#000;
 }
 
+#bio{
+    text-align: center;
+}
+
 #date{
     margin-top: 0;
 }
@@ -102,10 +106,6 @@ header{
 #cert{
     margin-top: 0;    
     padding-top: 0;
-}
-
-#game{
-    padding: 0 0.1em 0 0.1em;
 }
 
 #game:hover{
