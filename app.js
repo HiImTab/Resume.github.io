@@ -15,6 +15,7 @@ btn.addEventListener('click', function(){
         for (let i = 0; i < links.length; i++) {
             links[i].style.color = 'white';
         }
+        btn.innerHTML = 'Light Mode';
     }
     else{
         //light mode
@@ -28,7 +29,7 @@ btn.addEventListener('click', function(){
         for (let i = 0; i < links.length; i++) {
             links[i].style.color = 'black';
         }
+        btn.innerHTML = 'Dark Mode';
     }
     count++;
-
 })
