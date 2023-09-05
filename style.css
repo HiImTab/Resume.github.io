@@ -8,6 +8,13 @@ ul{
     padding-bottom: 0.2em;
 }
 
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+}
+
 .resume{
     border-radius: 10px;
     border: #000;
@@ -26,13 +33,6 @@ ul{
     display: flex;
     justify-content: space-between;
     align-items: start;
-    flex-direction: row;
-}
-
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     flex-direction: row;
 }
 
