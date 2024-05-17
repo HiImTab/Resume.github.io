@@ -93,12 +93,6 @@ a:visited{
     margin-bottom: 0.5em;
 }
 
-.body-list{
-    text-decoration: underline;
-    padding-right: 0.3em;
-    display: inline-block;
-}
-
 .body-div{
     width: 100%;
     padding: 0 0.5em 0 0.5em;
@@ -144,6 +138,19 @@ a:visited{
     .resume{
         height: 100%;
     }
+    .container-header{
+        margin: auto 2em;
+    }
+    .container-body{
+        margin: auto 3em;
+    }
+    p.info{
+        font-size: 0.8em;
+    }
+    header.header-info{
+        flex-direction: column;
+    }
+    
 } 
 @media(max-width: 1300px){
     .resume{
