@@ -138,6 +138,7 @@ a:visited{
     .resume{
         height: 100%;
         font-size: 0.8em;
+        word-break: keep-all;
         word-wrap: normal;
     }
     .container-header{
