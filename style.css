@@ -150,11 +150,9 @@ a:visited{
     }
     header.header-info{
         flex-direction: column;
-    }
-    
-    
-    
+    } 
 } 
+
 @media(max-width: 1300px){
     .resume{
         width: 100%;
